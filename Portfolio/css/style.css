@@ -15,14 +15,11 @@
 
 header{
     background-color: #212121;
-    position: fixed;
-    width: 100%;
 }
 
 main{
     padding-top: 50px;
     margin: auto;
-
 }
 
 body {
@@ -275,7 +272,7 @@ figcaption{
     }
 
     nav a{
-        font-size: 14px;
+        font-size: 12px;
         text-decoration: none;
         color:#F9F9F9 ;
         padding: 10px;
