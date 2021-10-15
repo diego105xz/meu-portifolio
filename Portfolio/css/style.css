@@ -14,10 +14,15 @@
     font-weight: 900;
 }
 
+header{
+    background-color: #171717;
+    max-width: 100%;
+}
 
 main{
     padding-top: 50px;
     margin: auto;
+    max-width: 1024px;
 }
 
 body {
@@ -26,7 +31,6 @@ body {
     color: #F9F9F9;
     font-family: DmSans;
     background-color:#1A1A1A;
-    max-width: 1024px;
 }
 
 .container{
@@ -35,7 +39,7 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     max-width: 1024px;
-
+    background-color: #171717;
 }
 
 div.port{
@@ -274,7 +278,7 @@ figcaption{
 
 @media only screen and (max-width: 480px){
     .port p{
-        font-size: 16px;
+        font-size: 12px;
         font-weight: 900;
         color: gold;
     }
@@ -305,11 +309,13 @@ figcaption{
 }
 
 @media only screen and (max-width: 360px){
-    nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-flow: column;
+
+
+    nav a{
+        font-size: 9px;
+        text-decoration: none;
+        color:#F9F9F9 ;
+        padding: 5px;
     }
+
 }
