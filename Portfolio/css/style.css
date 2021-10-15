@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+  }
+
+@font-face {
+    font-family: DmSans;
+    src: local(DMsans), url(../fonte/DMSans-Regular.ttf);
+    font-weight: 600;
+}
+@font-face {
+    font-family: DmSans;
+    src: local(DMsans), url(../fonte/DMSans-Bold.ttf);
+    font-weight: 900;
+}
+
+header{
+    background-color: #212121;
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding-top: 50px;
+    margin: auto;
+    max-width: 1024px;
+
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    color: #F9F9F9;
+    font-family: DmSans;
+    background-color:#1A1A1A;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    max-width: 1024px;
+}
+
+div.port{
+    display: flex;
+    align-items: center;
+}
+
+.port p{
+    font-size: 24px;
+    font-weight: 900;
+    color: gold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 400px;
+}
+
+nav a{
+    font-size: 18px;
+    text-decoration: none;
+    color:#F9F9F9 ;
+}
+
+nav a:hover{
+    color: gold;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+
+}
+
+.titulo h1, .titulo p, .titulo button{
+    padding: 15px;
+}
+
+h1{
+    font-weight: 900;
+}
+
+.titulo p{
+    color: #828282;
+}
+
+.button1{
+    background-color: gold;
+    border-radius: 20px;
+    font-weight: 900;
+    border-color: black;
+
+}
+
+.button2{
+    background-color: #212121;
+    border-radius: 20px;
+    font-weight: 900;
+    color:  #F9F9F9;
+    border-color: black;
+}
+
+.titulo div{
+    padding:10px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sobre div, .sobre p{
+    padding: 30px;
+}
+
+.sobre-texto h2{
+    font-weight: 900;
+}
+
+.sobre-texto p{
+    width: 600px;
+    color: #828282;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+}
+
+#contato{
+    padding-top: 100px;
+}
+
+h2{
+    font-weight: 900;
+}
+.icones{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.link{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.link:hover{
+    color: gold;
+}
+
+figcaption{
+    padding: 15px;
+}
+
+.titulo-projeto{
+    padding-top: 100px;
+}
+
+.titulo-projeto h2{
+    padding: 25px;
+    text-align: center;
+}
+
+.projetos{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.projeto{
+    background-color: #212121;
+    width: 300px;
+    height: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projeto img{
+    width: 280px;
+    height: 150px;
+    background-color: #171717;
+
+}
+
+.projeto a{
+    text-decoration: none;
+    color: #F9F9F9;
+}
+
+.projeto h3{
+    padding-top: 5px;
+    font-size: 22px;
+    font-weight: 900;
+}
+.projeto p{
+    color: #828282;
+}
+
+.servicos h2{
+    padding: 50px;
+    text-align: center;
+}
+
+.serv{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.serv h3{
+    padding: 10px;
+}
+
+.skill{
+    padding: 100px;
+}
+
+.skill h2{
+    padding: 50px;
+    text-align: center;
+}
+
+.skill div{
+    display: flex;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.rodape{
+    background-color: #212121;
+    padding: 20px;
+}
+
+.rodape p{
+    text-align: center;
+}
+
+.rodape span{
+    color: gold;
+}
+
+@media only screen and (max-width: 620px){
+   .perfil img{
+    width: 200px; 
+    height: 200px;
+   }
+   nav a{
+       display: flex;
+       flex-wrap: wrap;
+       padding: auto;
+       font-size: 16px;
+   }
+
+}
