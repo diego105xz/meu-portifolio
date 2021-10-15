@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
   }
 
 @font-face {
@@ -13,9 +14,6 @@
     font-weight: 900;
 }
 
-header{
-    background-color: #212121;
-}
 
 main{
     padding-top: 50px;
@@ -37,6 +35,7 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     max-width: 1024px;
+    background-color: #212121;
 }
 
 div.port{
@@ -73,6 +72,7 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     height: 60vh;
+    flex-wrap: wrap;
 }
 
 .titulo h1, .titulo p, .titulo button{
@@ -85,6 +85,14 @@ h1{
 
 .titulo p{
     color: #828282;
+}
+.button{
+    display: flex;
+    justify-content: center;
+
+}
+.button div{
+    padding: 20px;
 }
 
 .button1{
@@ -279,10 +287,29 @@ figcaption{
     }
 
     h1{
-        font-size: 20px;
+        font-size: 32px;
     }
 
     .titulo p{
-        font-size: 12px;
+        font-size: px;
+    }
+
+    .principal{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 60vh;
+        flex-wrap: wrap;
+        flex-flow: column;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-flow: column;
     }
 }
