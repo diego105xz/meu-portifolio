@@ -35,7 +35,7 @@ body {
     justify-content: space-between;
     padding-top: 20px;
     max-width: 1024px;
-    background-color: #212121;
+
 }
 
 div.port{
@@ -246,12 +246,12 @@ figcaption{
 }
 
 .rodape{
-    background-color: #212121;
-    padding: 20px;
+    padding-top: 25px;
 }
 
 .rodape p{
     text-align: center;
+    font-size: 10px;
 }
 
 .rodape span{
