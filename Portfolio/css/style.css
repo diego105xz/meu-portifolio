@@ -22,7 +22,6 @@ header{
 main{
     padding-top: 50px;
     margin: auto;
-    max-width: 1024px;
 
 }
 
@@ -32,6 +31,7 @@ body {
     color: #F9F9F9;
     font-family: DmSans;
     background-color:#1A1A1A;
+    max-width: 1024px;
 }
 
 .container{
@@ -58,13 +58,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    width: 400px;
 }
 
 nav a{
     font-size: 18px;
     text-decoration: none;
     color:#F9F9F9 ;
+    padding: 10px;
 }
 
 nav a:hover{
@@ -76,11 +76,10 @@ nav a:hover{
     align-items: center;
     justify-content: space-between;
     height: 60vh;
-
 }
 
 .titulo h1, .titulo p, .titulo button{
-    padding: 15px;
+    padding: 10px;
 }
 
 h1{
@@ -126,7 +125,6 @@ h1{
 }
 
 .sobre-texto p{
-    width: 600px;
     color: #828282;
     display: flex;
     flex-wrap: wrap;
@@ -228,7 +226,7 @@ figcaption{
 }
 
 .skill{
-    padding: 100px;
+    padding: 50px;
 }
 
 .skill h2{
@@ -238,8 +236,8 @@ figcaption{
 
 .skill div{
     display: flex;
-    justify-content: center;
-    padding: 0 25px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .rodape{
@@ -267,4 +265,27 @@ figcaption{
        font-size: 16px;
    }
 
+}
+
+@media only screen and (max-width: 480px){
+    .port p{
+        font-size: 16px;
+        font-weight: 900;
+        color: gold;
+    }
+
+    nav a{
+        font-size: 14px;
+        text-decoration: none;
+        color:#F9F9F9 ;
+        padding: 10px;
+    }
+
+    h1{
+        font-size: 20px;
+    }
+
+    .titulo p{
+        font-size: 12px;
+    }
 }
