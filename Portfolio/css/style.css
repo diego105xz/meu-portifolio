@@ -189,10 +189,11 @@ figcaption{
 .projeto{
     background-color: #212121;
     width: 300px;
-    height: 250px; 
+    height: 300px; 
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
 .projeto img{
@@ -212,7 +213,7 @@ figcaption{
     font-size: 22px;
     font-weight: 900;
 }
-.projeto p{
+.projeto li{
     color: #828282;
 }
 
